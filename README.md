@@ -149,7 +149,6 @@ Classifier
 ## Evaluation Metrics
 
 * Equal Error Rate (EER)
-* Tandem Detection Cost Function (t-DCF)
 
 Implemented in `utils/metrics.py`.
 
