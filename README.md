@@ -1,16 +1,25 @@
-# WIN: Wavelet Integrated Network
+# Wavelet Interface Network (WIN) 
 
-"Training & Validation Data Path" 
-https://www.kaggle.com/datasets/artharking/asvspoof2019-aa
+This repository contains the official implementation of the **Wavelet Interface Network (WIN)** implemented for Audio Deepfake Detection (ADD) using wavelet-based feature mapping.
 
-"Testing Data-sets"
+The proposed model integrates signal preprocessing, learnable Sinc-based frontend, positional aggregation, and wavelet-based attention for robust anti-spoofing.
 
-MLADDC => https://www.kaggle.com/datasets/artharking/mladdc-test-flac
+---
 
-ITW => https://www.kaggle.com/datasets/artharking/itw-flac
+## 📌 Features
 
-FoR => https://www.kaggle.com/datasets/artharking/for-test-flac
+- End-to-end learning from raw waveform
+- Pre-emphasis filtering
+- Sinc-based convolutional frontend
+- CNN feature extraction
+- Positional encoding
+- Wavelet-based multi-head attention
+- Transformer-style encoder
+- Attention-based sequence pooling
+- EER and t-DCF evaluation
+- FLOPs and parameter analysis
 
-2021_LA => https://www.kaggle.com/datasets/artharking/asv-2021-la-test
+---
 
-2024_ASV => https://www.kaggle.com/datasets/aniket202411001/asvspoof5-flac
+## 📁 Project Structure
+
