@@ -1,4 +1,4 @@
-# INTERSPEECH_26
+# WIN: Wavelet Integrated Network
 
 "Training & Validation Data Path" 
 https://www.kaggle.com/datasets/artharking/asvspoof2019-aa
