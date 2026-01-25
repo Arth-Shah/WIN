@@ -1,14 +1,3 @@
-Understood 👍 — you want **one clean, continuous README text** that you can **copy–paste directly** into your `README.md` file, without broken formatting, “copy code” blocks, or separators.
-
-Below is the **complete, unified README** in proper Markdown format.
-
-You can copy everything from `#` to the end and paste it directly.
-
----
-
-## ✅ **FINAL README.md (Copy Everything Below)**
-
-```markdown
 # Wavelet Interface Network (WIN) for Audio Deepfake Detection
 
 This repository contains the official implementation of the **Wavelet Interface Network (WIN)** for audio deepfake detection using wavelet-based feature mapping and transformer-style modeling.
@@ -19,22 +8,20 @@ The proposed model integrates signal preprocessing, learnable Sinc-based fronten
 
 ## 📌 Features
 
-- End-to-end learning from raw waveform  
-- Pre-emphasis filtering  
-- Sinc-based convolutional frontend  
-- CNN feature extraction  
-- Positional encoding  
-- Wavelet-based multi-head attention  
-- Transformer-style encoder  
-- Attention-based sequence pooling  
-- EER and t-DCF evaluation  
-- FLOPs and parameter analysis  
+- End-to-end learning from raw waveform
+- Pre-emphasis filtering
+- Sinc-based convolutional frontend
+- CNN feature extraction
+- Positional encoding
+- Wavelet-based multi-head attention
+- Transformer-style encoder
+- Attention-based sequence pooling
+- EER and t-DCF evaluation
+- FLOPs and parameter analysis
 
 ---
 
 ## 📁 Project Structure
-
-```
 
 bump-waveformer/
 │
@@ -64,7 +51,6 @@ bump-waveformer/
 │
 └── README.md
 
-````
 
 ---
 
@@ -86,106 +72,70 @@ pip install torchinfo fvcore
 
 ## 📊 Dataset Structure
 
-The dataset must be organized as:
+Organize your dataset as:
 
 ```
 dataset_root/
 ├── train/
 │   ├── bonafide/
 │   └── spoof/
-│
 ├── dev/
 │   ├── bonafide/
 │   └── spoof/
-│
 └── test/
     ├── bonafide/
     └── spoof/
 ```
 
-Each folder contains `.wav` or `.flac` audio files.
-
-Update dataset paths in `config.py`:
-
-```python
-class SysConfig:
-    TRAIN_PATH = "path/to/train"
-    DEV_PATH   = "path/to/dev"
-    TEST_PATH  = "path/to/test"
-```
+Update paths in `config.py`.
 
 ---
 
 ## 🚀 Training
 
-To train the model:
+Run training:
 
 ```bash
 python train.py
 ```
 
-The best model is saved automatically based on validation EER.
+The best model is saved automatically.
 
 ---
 
 ## 🧪 Testing
 
-To evaluate on the test set:
+Run evaluation:
 
 ```bash
 python test.py
 ```
 
-Outputs:
-
-* Final EER
-* Minimum t-DCF
+Outputs final EER and min-tDCF.
 
 ---
 
 ## 🔍 Sanity Check
 
-To verify forward pass and architecture:
+Verify forward pass:
 
 ```bash
 python tests/test_forward.py
 ```
 
-This performs a dummy inference and prints the output shape.
-
 ---
 
 ## 📐 Model Complexity
 
-To compute parameters and FLOPs:
+Check parameters and FLOPs:
 
 ```bash
 python model_info.py
 ```
 
-This reports:
-
-* Trainable parameters
-* Total parameters
-* Model size (MiB)
-* MACs / FLOPs
-* GFLOPs per second
-* Layer-wise summary
-
 ---
 
 ## 🧠 Model Architecture
-
-The proposed WIN architecture consists of:
-
-1. Pre-emphasis filtering
-2. Sinc convolution layer
-3. CNN frontend
-4. Positional aggregation
-5. Wavelet-based multi-head attention
-6. Transformer encoder layers
-7. Sequence pooling
-8. Binary classifier
 
 Pipeline:
 
@@ -209,55 +159,38 @@ Classifier
 
 ## 📈 Evaluation Metrics
 
-The following metrics are used:
-
 * Equal Error Rate (EER)
 * Tandem Detection Cost Function (t-DCF)
 
-Implemented in:
-
-```
-utils/metrics.py
-```
+Implemented in `utils/metrics.py`.
 
 ---
 
 ## 🔧 Configuration
 
-Hyperparameters and paths are defined in:
+All hyperparameters are in:
 
 ```
 config.py
 ```
 
-Example:
-
-```python
-class ExpConfig:
-    BATCH_SIZE = 32
-    LR = 8e-4
-    EPOCHS = 30
-```
-
-Modify this file to tune experiments.
+Modify for experiments.
 
 ---
 
 ## 💾 Checkpoints
 
-The best model is saved at:
+Saved at:
 
-```python
-SAVE_PATH = "Waveformer.pth"
 ```
-
-Defined in `config.py`.
+Waveformer.pth
+```
 
 ---
 
 ## 📄 Citation
 
-If you use this work in your research, please cite:
+If you use this work, please cite:
 
 ```
 @article{win2026,
@@ -268,15 +201,11 @@ If you use this work in your research, please cite:
 }
 ```
 
-(Replace with your actual citation.)
-
 ---
 
 ## 📜 License
 
-This project is intended for academic and research use.
-
-Please contact the authors for commercial usage.
+For academic and research use only.
 
 ---
 
@@ -292,37 +221,30 @@ Please contact the authors for commercial usage.
 
 ## 📬 Contact
 
-For questions and collaboration:
-
-Author: [Your Name]
-Email: [[your.email@domain.com](mailto:your.email@domain.com)]
-
----
-
-## ✅ What This README Provides
-
-This repository is:
-
-* Reviewer-friendly
-* Reproducible
-* Professional
-* Journal-ready
-* Easy to understand
-
-It supports:
-
-* Training
-* Testing
-* Evaluation
-* Model analysis
-* Reproducibility
-* Research reporting
-
----
+Author: Your Name
+Email: [your.email@domain.com](mailto:your.email@domain.com)
 
 ```
 
 ---
 
-If you want, next I can help you **customize this with your actual paper title, author names, and venue** so it is submission-ready.
+## ✅ Why This Will Now Work
+
+This version:
+
+✔ Removes broken `---` placement  
+✔ Avoids nested separators  
+✔ Uses standard GitHub Markdown  
+✔ Fixes heading spacing  
+✔ Fixes tree alignment  
+✔ Renders correctly on GitHub
+
+No more weird section breaks like in your screenshot.
+
+---
+
+If you want, next I can help you make:
+
+👉 a **badge section** (GitHub stars, PyTorch version, paper link)  
+👉 or an **official paper link section** for submission.
 ```
