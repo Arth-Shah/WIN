@@ -13,7 +13,7 @@ The proposed model integrates signal preprocessing, learnable Sinc-based fronten
 
 ## Project Structure
 ```
-bump-waveformer/
+WIN/
 │
 ├── train.py              # Training script
 ├── test.py               # Testing / evaluation
