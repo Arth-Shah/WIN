@@ -91,8 +91,8 @@ dataset_root/
     ├── bonafide/
     └── spoof/
 ```
-
 Update dataset paths in `config.py`.
+
 ---
 
 ## Reproducibility and Jupyter Notebooks
