@@ -1,4 +1,4 @@
-# models/wavelet_transformer.py
+# models/WIN_classifier.py
 
 import torch
 import torch.nn as nn
