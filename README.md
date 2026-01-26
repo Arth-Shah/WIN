@@ -93,7 +93,6 @@ dataset_root/
 ```
 
 Update dataset paths in `config.py`.
-```
 ---
 
 ## Reproducibility and Jupyter Notebooks
