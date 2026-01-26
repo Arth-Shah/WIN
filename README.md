@@ -304,14 +304,14 @@ For commercial usage, please contact the authors.
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 * xxx
 * yyy
 
 ---
 
-## 📬 Contact
+## Contact
 
 Authors:
 Arth J. Shah
@@ -321,3 +321,5 @@ Hemant A. Patil
 Email:
 [202521004@dau.ac.in](mailto:202521004@dau.ac.in)
 [202411001@dau.ac.in](mailto:202411001@dau.ac.in)
+[arth123shah@gmail.com](mailto:arth123shah@gmail.com)
+[aniket25403@gmail.com](mailto:aniket25403@gmail.com)
