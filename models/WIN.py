@@ -55,9 +55,10 @@ class WIN_c(nn.Module):
 
     def __init__(
         self,
-        C: int,
-        n_encoder: int,
-        transformer_hidden: int,
+        C,
+        n_encoder,
+        transformer_hidden,
+        wavelet_type="bump",
     ):
 
         super().__init__()
@@ -71,6 +72,7 @@ class WIN_c(nn.Module):
                         d_model=C,
                         n_head=8,
                         ffn_hidden=transformer_hidden,
+                        wavelet_type=wavelet_type,
                     )
                 )
                 for i in range(n_encoder)
@@ -102,15 +104,17 @@ class WIN(nn.Module):
     """
     Wavelet Interface Network (WIN)
     """
-
+    
     def __init__(
         self,
-        sample_rate: int = 16000,
-        pre_emphasis: float = 0.97,
-        transformer_hidden: int = 64,
-        n_encoder: int = 2,
-        C: int = 64,
+        sample_rate=16000,
+        pre_emphasis=0.97,
+        transformer_hidden=64,
+        n_encoder=2,
+        C=64,
+        wavelet_type="bump",   # NEW
     ):
+
 
         super().__init__()
 
@@ -138,6 +142,7 @@ class WIN(nn.Module):
             C=C,
             n_encoder=n_encoder,
             transformer_hidden=transformer_hidden,
+            wavelet_type=wavelet_type,
         )
 
 
