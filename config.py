@@ -32,16 +32,32 @@ class SysConfig:
 
 class ExpConfig:
 
+    # --------------------------------------------------
     # Audio Processing
+    # --------------------------------------------------
+
     SAMPLE_RATE = 16000
     PRE_EMPHASIS = 0.97
     TRAIN_DURATION = 4   # seconds
     TEST_DURATION = 4    # seconds
 
+
+    # --------------------------------------------------
     # Model
+    # --------------------------------------------------
+
     TRANSFORMER_HIDDEN = 660
 
+
+    # Wavelet type used in Wavelet-FAN Attention
+    # Options: "bump", "morlet", "dog", "morse", "mex_h"
+    WAVELET_TYPE = "bump"      # default: bump wavelet
+
+
+    # --------------------------------------------------
     # Training
+    # --------------------------------------------------
+
     BATCH_SIZE = 32
     LR = 8e-4
     EPOCHS = 30
