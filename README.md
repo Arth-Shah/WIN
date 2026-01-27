@@ -325,9 +325,9 @@ For commercial usage, please contact the authors.
 ## Acknowledgements
 
 This repository is built on top of several open source projects. 
-- [AASIST repo]((https://github.com/clovaai/aasist))
+- [AASIST repo](https://github.com/clovaai/aasist).
 - [Rawformer Repo](https://github.com/rst0070/Rawformer-implementation-anti-spoofing)
-- [FAN repo]((https://github.com/YihongDong/FAN))
+- [FAN repo](https://github.com/YihongDong/FAN)
 - [FANFormer Repo](https://github.com/YihongDong/FANformer) (ATF module inspiration)
 
 ---
