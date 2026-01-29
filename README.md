@@ -133,7 +133,7 @@ Notebooks/
 │   ├── mex_h.ipynb
 │   └── morse.ipynb
 │
-└── Backend_models/   # Corresponding trained models
+└── Backend_models/   # Corresponding trained model checkpoints
 ├── bump.pth
 ├── morlet.pth
 ├── dog.pth
