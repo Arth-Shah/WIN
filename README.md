@@ -46,7 +46,7 @@ WIN/
 │   │   ├── mex_h.ipynb
 │   │   └── morse.ipynb
 │   │
-│   └── Backend_models/   # Pre-trained models (.pth)
+│   └── Backend_models/   # Model checkpoints (.pth)
 │       ├── bump.pth
 │       ├── morlet.pth
 │       ├── dog.pth
