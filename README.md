@@ -308,7 +308,7 @@ If you use this work in your research, please cite:
 @article{win2026,
   title={WIN: Wavelet Integrated Network for Anti-Spoofing},
   author={Shah, Arth J. and Pandey, Aniket and Patil, Hemant A.},
-  journal={Submitted to IEEE SPS Letters (Under Review)},
+  journal={Accepted in IEEE SPS Letters},
   year={2026}
 }
 ```
