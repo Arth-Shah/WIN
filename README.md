@@ -305,12 +305,18 @@ Defined in `config.py` as `SAVE_PATH`.
 If you use this work in your research, please cite:
 
 ```
-@article{win2026,
-  title={WIN: Wavelet Integrated Network for Anti-Spoofing},
+@article{win,
   author={Shah, Arth J. and Pandey, Aniket and Patil, Hemant A.},
-  journal={Accepted in IEEE SPS Letters},
-  year={2026}
+  journal={IEEE Signal Processing Letters}, 
+  title={WINning Against Audio Deepfakes}, 
+  year={2026},
+  volume={33},
+  number={},
+  pages={2240-2244},
+  keywords={Modeling;Fans;Speech;Deepfakes;Conferences;Signal detection;Frequency;Timing;Transformers;Modules (abstract algebra);Wavelets;FAN;transformers;ADD},
+  doi={10.1109/LSP.2026.3695000}
 }
+
 ```
 ---
 
